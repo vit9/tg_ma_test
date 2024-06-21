@@ -1,12 +1,9 @@
 {
-  "homepage": "https://vit9.github.io/tg_ma_test/",
   "name": "tg_ma_test",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d docs",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
